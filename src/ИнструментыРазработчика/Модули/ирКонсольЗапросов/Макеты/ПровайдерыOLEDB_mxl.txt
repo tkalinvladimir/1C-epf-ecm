@@ -1,0 +1,14 @@
+﻿СтрокаСоединения				
+Provider=SQLOLEDB;				
+Provider=SQLNCLI;				
+Provider=Microsoft.Jet.OLEDB.4.0;				
+Provider=Microsoft.Jet.OLEDB.4.0; Extended Properties="text; HDR=Yes; FMT=Delimited";				
+Provider=Microsoft.Jet.OLEDB.4.0; Extended Properties="text; HDR=Yes; FMT=Fixed";				
+Provider=Microsoft.ACE.OLEDB.12.0;				
+Provider=vfpoledb; DSN=""; Data Source="!Путь!"; Collating Sequence=general;				
+Provider=IBMDADB2; Protocol=TCPIP; Port=50000; Hostname=!БазаСервер!;				
+Provider=DB2OLEDB; Network Transport Library=TCPIP; Network Address="!БазаСервер!";				
+Provider=OraOLEDB.Oracle; Data Source="!Путь!";				
+Provider=msdaora; Data Source="!Путь!";				
+Provider=PostgreSQL OLE DB Provider; Data Source="!БазаСервер!"; Location="!БазаИмя!";				
+Provider=MySQLProv; Data Source="!Путь!";				

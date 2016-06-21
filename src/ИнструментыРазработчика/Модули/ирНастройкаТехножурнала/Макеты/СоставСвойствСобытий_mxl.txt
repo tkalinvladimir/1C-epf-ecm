@@ -1,0 +1,32 @@
+﻿Event	Administrator	Body	Calls	Cluster	cn	cnd	Connection	Context	dbpid	DeadlockConnectionIntersections	Descr	DumpError	DumpFile	Duration	Err	Exception	Finish	Func	Host	Headers	IB	lka	lkaid	lkato	lkp	lkpid	lkpto	lksrc	InBytes	Locks	Memory	MemoryPeak	Method	Module	name	Nmb	NParams	OSException	OutBytes	p_processname	Phrase	planSQLText	Port	Process	ProcessName	Ref	Regions	Report	Rows	RowsAffected	RunAs	Sdbl	ServerComputerName	SessionID	Status	Sql	SrcProcessName	SyncPort	sz	szd	t_applicationname	t_clientid	t_computername	t_connectid	trans	Txt	Usr	Uri	Val	WaitConnections	Level	Component	tableName	Prm	setUnhandledExceptionFilter	Query	Retexcp	Class
+	s	n	n	n	n	n	n	s	n	s	s	s	s	n	b	s	s	fl	s	s	s	b	n	n	b	s	n	n	n	s	n	n	s	s	nl	n	n	s	n	s	s	s	n	s	s	s	s	s	n	n	s	s	s	n	s	s	s	n	n	n	s	s	s	s	b	s	s	s	s	s	ll	s	s	s	s	s	s	s
+<ALL>	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+	+
+ADMIN	+			+			+	+			+			+				+	+																+					+				+		+								+							+	+	+	+			+		+									
+CALL								+						+				+											+		+	+	+		+				+	+				+				+						+							+	+	+	+			+											
+CLSTR								+			+			+																					+					+				+										+							+	+	+	+		+	+											
+CONN			+					+						+				+																	+					+				+										+							+	+	+	+		+	+											
+DB2								+	+					+				+				+	+	+	+	+	+	+							+					+		+		+					+	+				+		+					+	+	+	+			+							+				
+DBMSSQL								+	+					+				+				+	+	+	+	+	+	+							+					+		+		+					+	+				+		+					+	+	+	+			+							+				
+DBORACLE								+	+					+				+				+	+	+	+	+	+	+							+					+		+		+					+	+				+		+					+	+	+	+	+		+							+				
+DBPOSTGRS								+	+					+				+				+	+	+	+	+	+	+							+		+			+		+		+										+		+					+	+	+	+			+							+				
+DBV8DBENG								+						+				+																	+					+		+		+					+	+				+		+					+	+	+	+			+							+				
+EDS								+						+																					+					+				+										+							+	+	+	+			+											
+EXCP								+			+	+	+	+		+		+																	+			+		+				+										+							+	+	+	+			+								+			
+EXCPCNTX								+						+																				+	+					+				+									+	+							+	+	+	+			+											
+HASP								+						+																					+					+				+										+							+	+	+	+		+	+											
+LEAKS								+			+			+																					+					+				+										+							+	+	+	+			+											
+MEM					+	+		+						+																					+					+				+										+					+	+	+	+	+	+			+											
+PROC								+						+	+		+																		+					+			+	+							+			+				+			+	+	+	+		+	+											
+QERR								+			+			+																					+					+				+										+							+	+	+	+			+									+		
+SCALL								+						+																			+		+					+				+										+							+	+	+	+			+										+	
+SCOM								+						+				+																	+					+				+	+									+			+				+	+	+	+			+											
+SDBL								+						+				+																	+					+				+					+			+		+							+	+	+	+			+						+					
+SESN								+						+				+			+														+	+				+				+										+							+	+	+	+			+											
+SRVC								+						+																					+					+				+										+							+	+	+	+			+											
+TLOCK								+			+			+		+														+					+					+				+			+							+							+	+	+	+			+			+								
+TDEADLOCK								+		+				+																					+					+				+										+							+	+	+	+			+											
+TTIMEOUT								+						+																					+					+				+										+							+	+	+	+			+			+								
+VRSCACHE								+						+																			+		+					+				+										+		+					+	+	+	+			+											
+VRSREQUEST		+						+						+						+													+		+					+				+										+							+	+	+	+			+	+										
+VRSRESPONSE		+						+						+						+															+					+	+			+										+	+						+	+	+	+			+											
+SYSTEM								+						+																					+					+				+										+							+	+	+	+			+				+	+						+

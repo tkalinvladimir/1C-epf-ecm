@@ -1,0 +1,61 @@
+﻿Ключ	Название	Описание	Коллекция	Картинка
+Assert	Assert	Оператор Assert проверяет условие.	Assert.RelOp	
+Bitmap	Bitmap	SQL Server внутренне использует оператор Bitmap для ускорения выполнения запроса, устраняя строки с ключевыми значениями, которые не могут привести к появлению каких-либо записей при соединении.	Bitmap.RelOp	
+Clustered Index Delete	Clustered Index Delete	Оператор Clustered Index Delete удаляет строки из кластеризованного индекса, заданного в столбце Аргумент плана выполнения запроса.		
+Clustered Index Insert	Clustered Index Insert	Оператор Clustered Index Insert инструкции Showplan вставляет строки со своего входа в кластеризованный индекс, указанный в столбце Аргумент.		
+Clustered Index Scan	Просмотр кластеризованного индекса (Clustered Index Scan)	Оператор Clustered Index Scan сканирует кластеризованный индекс, заданный в столбце Аргумент плана выполнения запроса.		
+Clustered Index Seek	Поиск в кластеризованном индексе (Clustered Index Seek)	Оператор Clustered Index Seek использует поисковые возможности индексов для получения строк из кластеризованного индекса.		
+Clustered Index Update	Clustered Index Update	Оператор Clustered Index Update обновляет входные строки кластеризованного индекса, указанные в столбце Argument.		
+Clustered Index Merge	Clustered Index Merge			
+Clustered Update	Clustered Update			
+Collapse	Collapse	Оператор Collapse оптимизирует процедуру обновления.	Collapse.RelOp	
+Compute Scalar	Вычисление выражения (Compute Scalar)	Оператор Compute Scalar вычисляет выражение и выдает вычисленную скалярную величину.	ComputeScalar.RelOp	
+Concatenation	Concatenation	Оператор Concatenation просматривает несколько входов, возвращая каждую просмотренную строку.	Concat.RelOp	
+Constant Scan	Constant Scan	Оператор Constant Scan вводит в запрос одну или несколько константных строк.		
+Deleted Scan	Deleted Scan	Оператор Deleted Scan просматривает таблицу deleted в триггере.		
+Filter	Фильтр (Filter)	Оператор Filter просматривает входные данные и возвращает только те строки, которые удовлетворяют критерию фильтрации (предикату), представленному в столбце Argument.	Filter.RelOp	
+Generic	Generic		Generic.RelOp	
+Hash Match	Hash Match	Оператор Hash Match строит хэш-таблицу при помощи вычисления хэш-значения для каждой строки из своих входных данных.	Hash.RelOp	
+Index Delete	Index Delete	Оператор Index Delete удаляет входные строки из некластеризованного индекса, указанного в столбце Argument.		
+Index Insert	Index Insert	Оператор Index Insert вставляет строки из входного потока в некластеризованный индекс, заданный в столбце Argument.		
+Index Scan	Просмотр индекса (Index Scan)	Оператор Index Scan получает все записи некластеризованного индекса, указанного в столбце Argument.		
+Index Seek	Поиск в индексе (Index Seek)	Оператор Index Seek использует возможности поиска по индексам для получения строк из некластеризованного индекса.		
+Index Spool	Index Spool	Оператор Index Spool сканирует входные строки, помещая каждую строку в скрытый файл буфера (хранимый в базе данных tempdb и существующий только в течение выполнения запроса), и создает для строк некластеризованный индекс.		
+Index Update	Index Update	Физический оператор Index Update обновляет строки, указанные во входных параметрах, в некластеризованном индексе, заданном в столбце Argument.		
+Inserted Scan	Inserted Scan	Оператор Inserted Scan просматривает таблицу inserted внутри триггера.		
+Log Row Scan	Log Row Scan	Оператор Log Row Scan просматривает журнал транзакций.		
+Merge Interval	Merge Interval	Оператор Merge Interval проводит слияние нескольких (возможно, пересекающихся) интервалов и возвращает минимальный, непересекающийся интервал, который затем используется для поиска записей индекса.	MergeInterval.RelOp	
+Merge Join	Соединение слиянием (Merge Join)	Оператор Merge Join выполняет внутреннее соединение, левое внешнее соединение, левое полусоединение, левое антиполусоединение, правое внешнее соединение, правое полусоединение, правое антиполусоединение, а также логические операции соединения.	Merge.RelOp	
+Nested Loops	Вложенные циклы (Nested Loops)	Оператор Nested Loops выполняет логические операции внутреннего соединения, левого внешнего соединения, левого полусоединения и антилевого полусоединения.	NestedLoops.RelOp	
+Online Index Insert	Online Index Insert	SQL Server 2005 позволяет выполнять операции с индексами CREATE, DROP и ALTER, в то время как данные базовой таблицы остаются доступными для пользователей. Оператор Online Index Insert реализует эти операции.	OnlineIndex.RelOp	
+Parallelism	Параллелизм (Parallelism)	Оператор Parallelism выполняет логические операции потоков распространения, сбора и повторного секционирования.	Parallelism.RelOp	
+Parameter Table Scan	Parameter Table Scan	Оператор Parameter Table Scan просматривает таблицу, переданную как параметр текущего запроса.		
+Print	Print			
+Remote Delete	Remote Delete	Оператор Remote Delete удаляет входные строки удаленного объекта.		
+Remote Index Scan	Remote Index Scan			
+Remote Index Seek	Remote Index Seek			
+Remote Insert	Remote Insert	Оператор Remote Insert вставляет входные строки в удаленный объект.		
+Remote Query	Remote Query	Оператор Remote Query отправляет запрос удаленному источнику.		
+Remote Scan	Remote Scan	Оператор Remote Scan позволяет удаленно просматривать необходимые объекты.		
+Remote Update	Remote Update	Оператор Remote Update обновляет входные строки удаленного объекта.		
+RID Lookup	Уточняющий запрос (RID Lookup)	Оператор RID Lookup осуществляет поиск закладки в куче при помощи заданного идентификатора строки.		
+Row Count Spool	Row Count Spool	Оператор Row Count Spool просматривает входные данные, подсчитывая число представленных строк и возвращая такое же количество строк, очищенных от данных.	RowCountSpool.RelOp	
+Segment	Сегмент (Segment)	Segment является физическим и логическим оператором. Он делит входной набор на сегменты в соответствии со значением одного или нескольких столбцов.	Segment.RelOp	
+Sequence	Sequence	Оператор Sequence выполняет планы широкого обновления.	Sequence.RelOp	
+Sequence Project	Sequence Project	Оператор Sequence Project добавляет столбцы для выполнения вычислений над упорядоченным набором.	SequenceProject.RelOp	
+Sort	Сортировка (Sort)	Оператор Sort сортирует входящие строки.	Sort.RelOp	
+Split	Split	Оператор Split используется для оптимизации процесса обновления.	Split.RelOp	
+Stream Aggregate	Статистическое выражение потока (Stream Aggregate)	Оператор Stream Aggregate группирует строки в один или несколько столбцов и вычисляет одно или несколько статистических выражений, возвращенных запросом.	StreamAggregate.RelOp	
+Switch	Switch	Оператор Switch представляет собой особый тип итератора сцепления, который имеет n входов.		
+Table-valued function	Table-valued function	Оператор Table-valued Function вычисляет возвращающую табличное значение функцию (языка Transact-SQL или среды CLR) и сохраняет строки результата в базу данных tempdb.		
+Table Delete	Table Delete	Физический оператор Table Delete удаляет строки из таблицы, указанной в столбце Аргумент плана выполнения запроса.		
+Table Insert	Table Insert	Оператор Table Insert вставляет строки из своих входных данных в таблицу, указанную в столбце Argument плана выполнения запроса.		
+Table Scan	Просмотр таблицы (Table Scan)	Оператор Table Scan получает строки из таблицы, указанной в столбце Аргумент плана выполнения запроса.		
+Table Spool	Table Spool	Оператор Table Spool просматривает входную таблицу и помещает копию каждой строки в скрытую буферную таблицу, которая находится в базе данных tempdb и существует только в течение времени жизни запроса.		
+Table Update	Table Update	Физический оператор Table Update обновляет входные строки в таблице, указанной в столбце Аргумент плана выполнения запроса.		
+Table Merge	Table Merge			
+Top	Верх (Top)	Оператор Top просматривает входные данные и возвращает только указанное число или процент строк, выбранных, возможно, на основе порядка сортировки.	Top.RelOp	
+UDX	UDX	Расширенные операторы (UDX) реализуют часть операций XQuery и XPath в SQL Server.		
+Distribute Streams	Distribute Streams	Оператор Distribute Streams преобразует один входящий поток записей в несколько выходящих потоков.		
+Gather Streams	Gather Streams	Оператор Gather Streams считывает несколько входных потоков и создает один выходной поток записей, комбинируя все входные потоки.		
+Repartition Streams	Repartition Streams	Оператор Repartition Streams собирает несколько потоков и создает несколько потоков записей.		

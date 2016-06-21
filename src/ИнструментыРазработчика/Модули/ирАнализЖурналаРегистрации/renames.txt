@@ -1,0 +1,11 @@
+﻿09d5efb7-b433-4039-a981-7354049cc7df.0\info-->und\09d5efb7-b433-4039-a981-7354049cc7df.0\info
+09d5efb7-b433-4039-a981-7354049cc7df.0\text-->ObjectModule.bsl
+3399e9f5-b581-497f-baaa-ac4fad91320c-->und\3399e9f5-b581-497f-baaa-ac4fad91320c
+61539e28-9285-4e47-b4f1-6d833a185821-->und\61539e28-9285-4e47-b4f1-6d833a185821
+61539e28-9285-4e47-b4f1-6d833a185821.0-->Form\Форма
+c0c23d3b-a215-40e2-b388-be53c4ab568d-->und\c0c23d3b-a215-40e2-b388-be53c4ab568d
+c0c23d3b-a215-40e2-b388-be53c4ab568d.0-->Form\ФормаСобытия
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

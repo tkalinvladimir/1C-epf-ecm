@@ -1,0 +1,13 @@
+﻿СтрокаСоединения			
+Driver={SQL Server};			
+Driver={SQL Native Client};			
+Driver={Microsoft Visual FoxPro Driver}; SourceType=DBF; SourceDB="!Путь!";			
+Driver={Microsoft Access Driver (*.mdb)}; Dbq="!Путь!";			
+Driver={Microsoft Access Driver (*.mdb, *.accdb)}; Dbq="!Путь!";			
+Driver={Microsoft dBASE Driver (*.dbf)}; DriverID=277;			
+Driver={IBM DB2 ODBC DRIVER}; Protocol=TCPIP; Port=1234; Hostname="!БазаСервер!";			
+Driver={Microsoft ODBC for Oracle}; Server="!Путь!";			
+Driver={PostgreSQL}; Port=5432; Server=!БазаСервер!; Database=!БазаИмя!;			
+Driver={MySQL ODBC 3.51 Driver}; Option=3;			
+Driver={MySQL ODBC 5.1 Driver}; Option=3;			
+Driver={Microsoft Text Driver (*.txt; *.csv)}; Dbq="!Путь!"; Extensions=asc,csv,tab,txt;			

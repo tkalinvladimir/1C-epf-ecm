@@ -1,0 +1,10 @@
+﻿555beff0-748a-450e-b97c-f875f869789b-->und\555beff0-748a-450e-b97c-f875f869789b
+555beff0-748a-450e-b97c-f875f869789b.0-->Form\Форма
+aa51f128-c330-45be-883f-052cbb8b514f.0\info-->und\aa51f128-c330-45be-883f-052cbb8b514f.0\info
+aa51f128-c330-45be-883f-052cbb8b514f.0\text-->ObjectModule.bsl
+aa51f128-c330-45be-883f-052cbb8b514f.1-->und\aa51f128-c330-45be-883f-052cbb8b514f.1
+copyinfo-->und\copyinfo
+dd8a13e4-e352-4de1-ba6d-9eac248409d8-->und\dd8a13e4-e352-4de1-ba6d-9eac248409d8
+root-->und\root
+version-->und\version
+versions-->und\versions

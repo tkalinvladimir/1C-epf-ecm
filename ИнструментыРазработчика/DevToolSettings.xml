@@ -1,0 +1,357 @@
+﻿<Structure xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Property name="РасположениеПанелиЗапуска">
+		<Value xsi:type="xs:decimal">3</Value>
+	</Property>
+	<Property name="ОпределениеСерверногоВремени">
+		<Value xsi:type="xs:decimal">1</Value>
+	</Property>
+	<Property name="СписокИнструментов">
+		<Value xsi:type="ValueTable">
+			<column>
+				<Name xsi:type="xs:string">НомерСтроки</Name>
+				<ValueType>
+					<Type>xs:decimal</Type>
+					<NumberQualifiers>
+						<Digits>0</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</ValueType>
+				<Title>N</Title>
+				<Width xsi:type="xs:decimal">10</Width>
+			</column>
+			<column>
+				<Name xsi:type="xs:string">Автозапуск</Name>
+				<ValueType>
+					<Type>xs:boolean</Type>
+				</ValueType>
+				<Title>Автозапуск</Title>
+				<Width xsi:type="xs:decimal">10</Width>
+			</column>
+			<column>
+				<Name xsi:type="xs:string">Видимость</Name>
+				<ValueType>
+					<Type>xs:boolean</Type>
+				</ValueType>
+				<Title>Видимость</Title>
+				<Width xsi:type="xs:decimal">10</Width>
+			</column>
+			<column>
+				<Name xsi:type="xs:string">ИмяКартинки</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>Имя картинки</Title>
+				<Width xsi:type="xs:decimal">10</Width>
+			</column>
+			<column>
+				<Name xsi:type="xs:string">ПолноеИмя</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>Обработка</Title>
+				<Width xsi:type="xs:decimal">10</Width>
+			</column>
+			<column>
+				<Name xsi:type="xs:string">Синоним</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<StringQualifiers>
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>Синоним</Title>
+				<Width xsi:type="xs:decimal">10</Width>
+			</column>
+			<row>
+				<Value>1</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирИнтерфейснаяПанель</Value>
+				<Value>Обработка.ирИнтерфейснаяПанель</Value>
+				<Value>Интерфейсная панель (ИР)</Value>
+			</row>
+			<row>
+				<Value>2</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value/>
+				<Value>Разделитель</Value>
+				<Value>---------- Разделитель ----------</Value>
+			</row>
+			<row>
+				<Value>3</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирКонсольЗапросов</Value>
+				<Value>Обработка.ирКонсольЗапросов</Value>
+				<Value>Консоль запросов (ИР)</Value>
+			</row>
+			<row>
+				<Value>4</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирКонсольПостроителейОтчетов</Value>
+				<Value>Обработка.ирКонсольПостроителейОтчетов</Value>
+				<Value>Консоль построителей отчетов (ИР)</Value>
+			</row>
+			<row>
+				<Value>5</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирКонсольКомпоновокДанных</Value>
+				<Value>Отчет.ирКонсольКомпоновокДанных</Value>
+				<Value>Консоль компоновок данных (ИР)</Value>
+			</row>
+			<row>
+				<Value>6</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирОтладка</Value>
+				<Value>ирОбщий.ОтладитьОтложенныйОбъектЛкс</Value>
+				<Value>Отладить отложенный объект (ИР)</Value>
+			</row>
+			<row>
+				<Value>7</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value/>
+				<Value>Разделитель</Value>
+				<Value>---------- Разделитель ----------</Value>
+			</row>
+			<row>
+				<Value>8</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирИсследовать</Value>
+				<Value>Обработка.ирИсследовательОбъектов</Value>
+				<Value>Исследователь объектов (ИР)</Value>
+			</row>
+			<row>
+				<Value>9</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирКонсольКода</Value>
+				<Value>Обработка.ирКонсольКода</Value>
+				<Value>Консоль кода (ИР)</Value>
+			</row>
+			<row>
+				<Value>10</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value/>
+				<Value>Разделитель</Value>
+				<Value>---------- Разделитель ----------</Value>
+			</row>
+			<row>
+				<Value>11</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирПаметрСеанса82</Value>
+				<Value>Обработка.ирРедакторПараметровСеанса</Value>
+				<Value>Редактор параметров сеанса (ИР)</Value>
+			</row>
+			<row>
+				<Value>12</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирКонстанты</Value>
+				<Value>Обработка.ирРедакторКонстант</Value>
+				<Value>Редактор констант (ИР)</Value>
+			</row>
+			<row>
+				<Value>13</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирРедактироватьОбъектБД</Value>
+				<Value>Обработка.ирРедакторОбъектаБД</Value>
+				<Value>Редактор объекта БД (ИР)</Value>
+			</row>
+			<row>
+				<Value>14</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирСписокЗначений</Value>
+				<Value>Обработка.ирДинамическийСписок</Value>
+				<Value>Динамический список (ИР)</Value>
+			</row>
+			<row>
+				<Value>15</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирИзмененияНаУзле</Value>
+				<Value>Обработка.ирРедакторИзмененийПоПлануОбмена</Value>
+				<Value>Редактор изменений на узле (ИР)</Value>
+			</row>
+			<row>
+				<Value>16</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>УстановитьВремя</Value>
+				<Value>Обработка.ирКонсольЗаданий</Value>
+				<Value>Консоль заданий (ИР)</Value>
+			</row>
+			<row>
+				<Value>17</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирПользователи</Value>
+				<Value>Обработка.ирРедакторПользователей</Value>
+				<Value>Список пользователей (ИР)</Value>
+			</row>
+			<row>
+				<Value>18</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ХранилищеНастроек</Value>
+				<Value>Обработка.ирРедакторХранилищНастроек</Value>
+				<Value>Редактор хранилищ настроек (ИР)</Value>
+			</row>
+			<row>
+				<Value>19</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value/>
+				<Value>Разделитель</Value>
+				<Value>---------- Разделитель ----------</Value>
+			</row>
+			<row>
+				<Value>20</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирКонфигуратор1С8</Value>
+				<Value>ирОбщий.ОткрытьОтладчикЛкс</Value>
+				<Value>Открыть отладчик</Value>
+			</row>
+			<row>
+				<Value>21</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирПереключитьИнтерфейс</Value>
+				<Value>Обработка.ирМенеджерИнтерфейсов</Value>
+				<Value>Менеджер интерфейсов (ИР)</Value>
+			</row>
+			<row>
+				<Value>22</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирВыгрузкаЗагрузка</Value>
+				<Value>Обработка.ирВыгрузкаЗагрузкаДанныхЧерезФайл</Value>
+				<Value>Выгрузка/загрузка данных через файл (ИР)</Value>
+			</row>
+			<row>
+				<Value>23</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирОбработкаОбъектов</Value>
+				<Value>Обработка.ирПодборИОбработкаОбъектов</Value>
+				<Value>Подбор и обработка объектов БД (ИР)</Value>
+			</row>
+			<row>
+				<Value>24</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирПоискИЗаменаДублей</Value>
+				<Value>Обработка.ирПоискДублейИЗаменаСсылок</Value>
+				<Value>Поиск дублей и замена ссылок (ИР)</Value>
+			</row>
+			<row>
+				<Value>25</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирПоискСсылокНаОбъект</Value>
+				<Value>Обработка.ирПоискСсылокНаОбъект</Value>
+				<Value>Поиск ссылок на объект (ИР)</Value>
+			</row>
+			<row>
+				<Value>26</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирУсечениеТипов</Value>
+				<Value>Обработка.ирПодготовкаБазыДанныхКУсечениюТипов</Value>
+				<Value>Проверка базы данных перед усечением типов (ИР)</Value>
+			</row>
+			<row>
+				<Value>27</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирCOM</Value>
+				<Value>ирОбщий.ОткрытьАдминистративнаяРегистрацияCOMЛкс</Value>
+				<Value>Регистрация COM компонент (ИР)</Value>
+			</row>
+			<row>
+				<Value>28</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value/>
+				<Value>Разделитель</Value>
+				<Value>---------- Разделитель ----------</Value>
+			</row>
+			<row>
+				<Value>29</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирТестирование</Value>
+				<Value>Обработка.ирТестированиеМетаданных</Value>
+				<Value>Тестирование метаданных (ИР)</Value>
+			</row>
+			<row>
+				<Value>30</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирЖурнал</Value>
+				<Value>Обработка.ирАнализЖурналаРегистрации</Value>
+				<Value>Анализ журнала регистрации (ИР)</Value>
+			</row>
+			<row>
+				<Value>31</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирНастройкаЖурналаРегистрации</Value>
+				<Value>Обработка.ирНастройкаЖурналаРегистрации</Value>
+				<Value>Настройка журнала регистрации (ИР)</Value>
+			</row>
+			<row>
+				<Value>32</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирТехноЖурнал</Value>
+				<Value>Обработка.ирАнализТехноЖурнала</Value>
+				<Value>Анализ техножурнала (ИР)</Value>
+			</row>
+			<row>
+				<Value>33</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирНастройкаТехножурнала</Value>
+				<Value>Обработка.ирНастройкаТехножурнала</Value>
+				<Value>Настройка техножурнала (ИР)</Value>
+			</row>
+			<row>
+				<Value>34</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value/>
+				<Value>Разделитель</Value>
+				<Value>---------- Разделитель ----------</Value>
+			</row>
+			<row>
+				<Value>35</Value>
+				<Value>false</Value>
+				<Value>true</Value>
+				<Value>ирСинтаксПомощник</Value>
+				<Value>Обработка.ирСинтаксПомощник</Value>
+				<Value>Синтакс помощник (ИР)</Value>
+			</row>
+		</Value>
+	</Property>
+</Structure>

@@ -1,0 +1,17 @@
+﻿2e0a6a07-c43e-4003-868e-15b87e01ccf7-->und\2e0a6a07-c43e-4003-868e-15b87e01ccf7
+2e0a6a07-c43e-4003-868e-15b87e01ccf7.0-->Form\ФормаВыбораПолей
+442bd8d3-d434-4134-977a-065462540d57-->und\442bd8d3-d434-4134-977a-065462540d57
+442bd8d3-d434-4134-977a-065462540d57.0-->und\442bd8d3-d434-4134-977a-065462540d57.0
+7449756a-c14c-42e0-b79f-36621436ca71-->und\7449756a-c14c-42e0-b79f-36621436ca71
+81d63199-52fd-4b74-9288-d9a6b3afed12.0\info-->und\81d63199-52fd-4b74-9288-d9a6b3afed12.0\info
+81d63199-52fd-4b74-9288-d9a6b3afed12.0\text-->ObjectModule.bsl
+af207db0-4a6c-4a52-81aa-4167340ca8d3-->und\af207db0-4a6c-4a52-81aa-4167340ca8d3
+af207db0-4a6c-4a52-81aa-4167340ca8d3.0-->Form\Форма
+c8448119-237c-4e64-b4e4-f07ef61256ae-->und\c8448119-237c-4e64-b4e4-f07ef61256ae
+c8448119-237c-4e64-b4e4-f07ef61256ae.0-->Form\ФормаПроверкиМетаданных
+c93f380a-fb9e-4242-9d58-5ce1bf3229cc-->und\c93f380a-fb9e-4242-9d58-5ce1bf3229cc
+c93f380a-fb9e-4242-9d58-5ce1bf3229cc.0-->Form\ФормаНастройкиДоступа
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

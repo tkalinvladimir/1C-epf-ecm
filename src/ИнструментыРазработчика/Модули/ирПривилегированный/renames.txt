@@ -1,0 +1,7 @@
+﻿2f8e8830-e47d-4588-98d3-8580539fbf06-->und\2f8e8830-e47d-4588-98d3-8580539fbf06
+copyinfo-->und\copyinfo
+de075aea-1969-4378-84d2-3ca60920d040.0\info-->und\de075aea-1969-4378-84d2-3ca60920d040.0\info
+de075aea-1969-4378-84d2-3ca60920d040.0\text-->ObjectModule.bsl
+root-->und\root
+version-->und\version
+versions-->und\versions

@@ -1,0 +1,15 @@
+﻿Код	Имя	Наименование	ДиалектSQL	ТипИсточникаДанных	МаскаФайлов	СтрокаСоединения			
+10	ADO-SQLODBC	MS-SQL ч/з ODBC	MSSQL	2		Driver={SQL Server}; Server=!БазаСервер!; DataBase=!БазаИмя!; UID="!Пользователь!"; PWD="!Пароль!";			
+11	ADO-SQLOLEDB	MS-SQL ч/з OLEDB	MSSQL	2		Provider=SQLOLEDB; Data Source="!БазаСервер!"; Initial Catalog="!БазаИмя!"; User Id="!Пользователь!"; Password="!Пароль!";			
+12	ADO-SQLNCLI10	MS-SQL ч/з SQLNCLI10	MSSQL	2		Provider=SQLNCLI10; Server=!БазаСервер!; DataBase=!БазаИмя!; Trusted_Connection=No; UID="!Пользователь!"; PWD="!Пароль!";			
+13	ADO_VFPOLEDB0	таблица FoxPro ч/з OLEDB	MSVisualFoxPro	0	Таблица данных dBase (*.dbf)|*.dbf	Provider=VFPOLEDB.1; DSN=""; SourceType=DBC; Data Source="!Путь!"; User ID="!Пользователь!"; Password="!Пароль!"; Mask Password=False; Extended Properties=""; Exclusive=No; Mode=ReadWrite; Collating Sequence=machine;			
+21	ADO_VFPOLEDB1	база FoxPro ч/з OLEDB	MSVisualFoxPro	1		Provider=VFPOLEDB.1; DSN=""; SourceType=DBF; Data Source="!Путь!"; User ID="!Пользователь!"; Password="!Пароль!"; Mask Password=False; Extended Properties=""; Exclusive=No; Mode=ReadWrite; Collating Sequence=machine;			
+14	ADO-DB2	IBM DB2 ч/з IBM OLEDB	DB2	2		Provider=IBMDADB2; Protocol=TCPIP; Port=50000; Hostname=!БазаСервер!; Database=!БазаИмя!; Uid="!Пользователь!"; Pwd="!Пароль!";			
+15	ADO-DB2-MS	IBM DB2 ч/з MS OLEDB	DB2	2		Provider=DB2OLEDB; Network Transport Library=TCPIP; Network Address="!БазаСервер!"; Initial Catalog="!БазаИмя!"; Package Collection=?MyPkgCol?; Default Schema=?Schema?; User ID="!Пользователь!"; Password="!Пароль!";			
+16	ADO-Oracle	Oracle ч/з Oracle OLEDB	Oracle	3		Provider=OraOLEDB.Oracle; Data Source="!Путь!"; User ID="!Пользователь!"; Password="!Пароль!";			
+17	ADO-Oracle-MS	Oracle ч/з MS OLEDB	Oracle	3		Provider=msdaora; Data Source="!Путь!"; User ID="!Пользователь!"; Password="!Пароль!";			
+18	ADO-PostgreSQL	PostgreSQL ч/з OLEDB	PostgreSQL	2		Provider=PostgreSQL OLE DB Provider; Data Source="!БазаСервер!"; Location="!БазаИмя!"; User ID="!Пользователь!"; Password="!Пароль!";			
+19	ADO-MySQL-5.1	MySQL ч/з OLEDB-5.1	MySQL	2		Driver={MySQL ODBC 5.1 Driver}; Option=3; Server=!БазаСервер!; Database=!БазаИмя!; User="!Пользователь!"; Password="!Пароль!";			
+20	dBase.OLEDB	таблица dBase ч/з OLEDB	MSVisualFoxPro	0	Таблица данных dBase (*.dbf)|*.dbf	Provider=VFPOLEDB.1; DSN=""; SourceType=DBF; Data Source="!Путь!"; Extended Properties=""; Exclusive=No; Mode=ReadWrite; Collating Sequence=machine;			
+30	XLS-Jet.OLEDB	файл XLS ч/з Jet.OLEDB-4.0	MSJet	0	Книги Excel-2003 (*.xls)|*.xls	Provider=Microsoft.Jet.OLEDB.4.0; Data Source="!Путь!"; Extended Properties="Excel 8.0; HDR=Yes;";			
+31	XLS-ACE.OLEDB	файл XLS ч/з ACE.OLEDB-12.0	MSJet	0	Книги Excel-2007 (*.xlsx)|*.xlsx|Книги Excel-2003 (*.xls)|*.xls	Provider=Microsoft.ACE.OLEDB.12.0; Data Source="!Путь!"; Extended Properties="Excel 12.0 Xml; HDR=Yes;";			

@@ -1,0 +1,17 @@
+﻿1db2a0ec-a381-42f9-b5f4-fc70dde6dbca-->und\1db2a0ec-a381-42f9-b5f4-fc70dde6dbca
+1db2a0ec-a381-42f9-b5f4-fc70dde6dbca.0-->Form\Форма
+1db2a0ec-a381-42f9-b5f4-fc70dde6dbca.1-->und\1db2a0ec-a381-42f9-b5f4-fc70dde6dbca.1
+505d8a3b-e51d-4a95-88fb-1ad1e4b63a42-->und\505d8a3b-e51d-4a95-88fb-1ad1e4b63a42
+7dde4ccb-4867-4aec-a984-a2703106119f-->und\7dde4ccb-4867-4aec-a984-a2703106119f
+7dde4ccb-4867-4aec-a984-a2703106119f.0-->Form\ЗапускПодПользователем
+aeb7d4b0-56e4-43ae-af52-e48f4c60b32f-->und\aeb7d4b0-56e4-43ae-af52-e48f4c60b32f
+aeb7d4b0-56e4-43ae-af52-e48f4c60b32f.0-->Form\ПользовательИнфобазы
+aeb7d4b0-56e4-43ae-af52-e48f4c60b32f.1-->und\aeb7d4b0-56e4-43ae-af52-e48f4c60b32f.1
+c5012757-4a99-4560-b9c0-0fcb2f28818c.0\info-->und\c5012757-4a99-4560-b9c0-0fcb2f28818c.0\info
+c5012757-4a99-4560-b9c0-0fcb2f28818c.0\text-->ObjectModule.bsl
+copyinfo-->und\copyinfo
+d66329f3-b749-41b6-bbdd-0d27f3d27cff-->und\d66329f3-b749-41b6-bbdd-0d27f3d27cff
+d66329f3-b749-41b6-bbdd-0d27f3d27cff.0-->Form\ВыборПользователяWindows
+root-->und\root
+version-->und\version
+versions-->und\versions

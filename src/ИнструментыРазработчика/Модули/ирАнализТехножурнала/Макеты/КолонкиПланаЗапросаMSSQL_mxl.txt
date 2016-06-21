@@ -1,0 +1,10 @@
+﻿Имя	Описание
+Rows	
+Executes	
+EstimateRows	Estimated number of rows of output produced by this operator. For rows of type PLAN_ROWS only.
+EstimateIO	Estimated I/O cost* for this operator. For rows of type PLAN_ROWS only.
+EstimateCPU	Estimated CPU cost* for this operator. For rows of type PLAN_ROWS only.
+AvgRowSize	Estimated average row size (in bytes) of the row being passed through this operator.
+TotalSubtreeCost	Estimated (cumulative) cost* of this operation and all child operations.
+EstimateExecutions	Estimated number of times this operator will be executed while running the current query.
+StmtText	For rows that are not of type PLAN_ROW, this column contains the text of the Transact-SQL statement. For rows of type PLAN_ROW, this column contains a description of the operation. This column contains the physical operator and may optionally also contain the logical operator. This column may also be followed by a description that is determined by the physical operator.

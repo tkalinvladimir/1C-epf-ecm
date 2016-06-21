@@ -1,0 +1,11 @@
+﻿1390cc1b-3190-4d73-abe4-7662f6981f60-->und\1390cc1b-3190-4d73-abe4-7662f6981f60
+1390cc1b-3190-4d73-abe4-7662f6981f60.0-->Form\ИсследовательКоллекций
+19abf0a6-4eed-464b-8748-a4ee19bd4f70-->und\19abf0a6-4eed-464b-8748-a4ee19bd4f70
+19abf0a6-4eed-464b-8748-a4ee19bd4f70.0-->Form\ИсследовательОбъектов
+72f56857-6ab0-43eb-b1fe-4480c2ed30b1-->und\72f56857-6ab0-43eb-b1fe-4480c2ed30b1
+a429749c-1546-4266-bddb-c783383b26e5.0\info-->und\a429749c-1546-4266-bddb-c783383b26e5.0\info
+a429749c-1546-4266-bddb-c783383b26e5.0\text-->ObjectModule.bsl
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

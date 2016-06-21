@@ -1,0 +1,7 @@
+﻿3ea23294-a6f7-4a93-8cb5-baee8a4b8ca1-->und\3ea23294-a6f7-4a93-8cb5-baee8a4b8ca1
+3ea23294-a6f7-4a93-8cb5-baee8a4b8ca1.0-->Form\МенеджерТабличногоПоля
+be50dc4b-1155-44ee-bba2-b996515aeb00-->und\be50dc4b-1155-44ee-bba2-b996515aeb00
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

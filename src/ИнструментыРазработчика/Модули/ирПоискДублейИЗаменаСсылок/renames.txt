@@ -1,0 +1,16 @@
+﻿6d11804f-8742-4cb3-a4ee-ebfa4c7198ba-->und\6d11804f-8742-4cb3-a4ee-ebfa4c7198ba
+6d11804f-8742-4cb3-a4ee-ebfa4c7198ba.0-->Form\ФормаЗамещенияВНезависимыхРегистрахСведений
+9e411791-3df8-4b1f-8fb9-e020df34a7dc-->und\9e411791-3df8-4b1f-8fb9-e020df34a7dc
+9e411791-3df8-4b1f-8fb9-e020df34a7dc.0-->Form\ФормаНастройки
+a13c78b8-1770-44a0-b329-483a564020ae-->und\a13c78b8-1770-44a0-b329-483a564020ae
+a13c78b8-1770-44a0-b329-483a564020ae.0-->Form\Форма
+a93d1472-ff0c-443a-8f30-4ecba531e31a.0\info-->und\a93d1472-ff0c-443a-8f30-4ecba531e31a.0\info
+a93d1472-ff0c-443a-8f30-4ecba531e31a.0\text-->ObjectModule.bsl
+a93d1472-ff0c-443a-8f30-4ecba531e31a.1-->und\a93d1472-ff0c-443a-8f30-4ecba531e31a.1
+b05ecb0b-2b8d-4f91-871e-4ab4c7959999-->und\b05ecb0b-2b8d-4f91-871e-4ab4c7959999
+c98957fb-3035-45ff-a27d-9f9f4a49cec6-->und\c98957fb-3035-45ff-a27d-9f9f4a49cec6
+c98957fb-3035-45ff-a27d-9f9f4a49cec6.0-->Form\ФормаПерепроведенияДокументов
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

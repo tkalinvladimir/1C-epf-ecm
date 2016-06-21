@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetObject">
+			<name>Основной</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НомерСтроки</dataPath>
+				<field>НомерСтроки</field>
+				<title xsi:type="xs:string">N</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>0</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>FileWild</dataPath>
+				<field>FileWild</field>
+				<title xsi:type="xs:string">File wild</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>From_</dataPath>
+				<field>From_</field>
+				<title xsi:type="xs:string">From</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>FromCat</dataPath>
+				<field>FromCat</field>
+				<title xsi:type="xs:string">From cat</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Index_</dataPath>
+				<field>Index_</field>
+				<title xsi:type="xs:string">Index</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>LocaleName</dataPath>
+				<field>LocaleName</field>
+				<title xsi:type="xs:string">Locale name</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Move</dataPath>
+				<field>Move</field>
+				<title xsi:type="xs:string">Move</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Prm</dataPath>
+				<field>Prm</field>
+				<title xsi:type="xs:string">Prm</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Result</dataPath>
+				<field>Result</field>
+				<title xsi:type="xs:string">Result</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>tableName</dataPath>
+				<field>tableName</field>
+				<title xsi:type="xs:string">Table name</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>TCPСоединение</dataPath>
+				<field>TCPСоединение</field>
+				<title xsi:type="xs:string">TCPСоединение</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>To</dataPath>
+				<field>To</field>
+				<title xsi:type="xs:string">To</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ToCat</dataPath>
+				<field>ToCat</field>
+				<title xsi:type="xs:string">To cat</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>What</dataPath>
+				<field>What</field>
+				<title xsi:type="xs:string">What</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Взаимоблокировка</dataPath>
+				<field>Взаимоблокировка</field>
+				<title xsi:type="xs:string">Взаимоблокировка</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВзаимоблокировкаМета</dataPath>
+				<field>ВзаимоблокировкаМета</field>
+				<title xsi:type="xs:string">Взаимоблокировка мета</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Дата</dataPath>
+				<field>Дата</field>
+				<title xsi:type="xs:string">Дата</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+					<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<DateFractions>DateTime</DateFractions>
+					</DateQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Действие</dataPath>
+				<field>Действие</field>
+				<title xsi:type="xs:string">Действие</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Длительность</dataPath>
+				<field>Длительность</field>
+				<title xsi:type="xs:string">Длительность, мс</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИмяФайлаЛога</dataPath>
+				<field>ИмяФайлаЛога</field>
+				<title xsi:type="xs:string">Имя файла лога</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>200</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Интерфейс</dataPath>
+				<field>Интерфейс</field>
+				<title xsi:type="xs:string">Интерфейс</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>36</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Инфобаза</dataPath>
+				<field>Инфобаза</field>
+				<title xsi:type="xs:string">Инфобаза</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИсключениеОС</dataPath>
+				<field>ИсключениеОС</field>
+				<title xsi:type="xs:string">Исключение ОС</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Источник</dataPath>
+				<field>Источник</field>
+				<title xsi:type="xs:string">Источник</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КаталогСУБД</dataPath>
+				<field>КаталогСУБД</field>
+				<title xsi:type="xs:string">Каталог СУБД</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Клиент</dataPath>
+				<field>Клиент</field>
+				<title xsi:type="xs:string">Клиент</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоПараметров</dataPath>
+				<field>КоличествоПараметров</field>
+				<title xsi:type="xs:string">Количество параметров</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Компьютер</dataPath>
+				<field>Компьютер</field>
+				<title xsi:type="xs:string">Компьютер</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КомпьютерКлиента</dataPath>
+				<field>КомпьютерКлиента</field>
+				<title xsi:type="xs:string">Компьютер клиента</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КомпьютерСервера</dataPath>
+				<field>КомпьютерСервера</field>
+				<title xsi:type="xs:string">Компьютер сервера</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контекст</dataPath>
+				<field>Контекст</field>
+				<title xsi:type="xs:string">Контекст</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Текст</parameter>
+						<value xsi:type="xs:string">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Метод</dataPath>
+				<field>Метод</field>
+				<title xsi:type="xs:string">Метод</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>36</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МоментВремени</dataPath>
+				<field>МоментВремени</field>
+				<title xsi:type="xs:string">Момент времени</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>18</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НаСервере</dataPath>
+				<field>НаСервере</field>
+				<title xsi:type="xs:string">На сервере</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:boolean</Type>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Описание</dataPath>
+				<field>Описание</field>
+				<title xsi:type="xs:string">Описание</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>999</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланСУБД</dataPath>
+				<field>ПланСУБД</field>
+				<title xsi:type="xs:string">План СУБД</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланСУБДМета</dataPath>
+				<field>ПланСУБДМета</field>
+				<title xsi:type="xs:string">План СУБД мета</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Пользователь</dataPath>
+				<field>Пользователь</field>
+				<title xsi:type="xs:string">Пользователь</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПотокОС</dataPath>
+				<field>ПотокОС</field>
+				<title xsi:type="xs:string">Поток ОС</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Приложение</dataPath>
+				<field>Приложение</field>
+				<title xsi:type="xs:string">Приложение</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПричинаЗавершения</dataPath>
+				<field>ПричинаЗавершения</field>
+				<title xsi:type="xs:string">Причина завершения</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>50</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПроцессОС</dataPath>
+				<field>ПроцессОС</field>
+				<title xsi:type="xs:string">Процесс ОС</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПроцессСУБД</dataPath>
+				<field>ПроцессСУБД</field>
+				<title xsi:type="xs:string">Процесс СУБД</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сеанс</dataPath>
+				<field>Сеанс</field>
+				<title xsi:type="xs:string">Сеанс</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Событие</dataPath>
+				<field>Событие</field>
+				<title xsi:type="xs:string">Событие</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Соединение_</dataPath>
+				<field>Соединение_</field>
+				<title xsi:type="xs:string">Соединение</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтрокаМодуляБазовогоУровня</dataPath>
+				<field>СтрокаМодуляБазовогоУровня</field>
+				<title xsi:type="xs:string">Строка модуля базового уровня</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>300</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтрокаМодуля</dataPath>
+				<field>СтрокаМодуля</field>
+				<title xsi:type="xs:string">Строка модуля</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>300</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтрокаСоединения</dataPath>
+				<field>СтрокаСоединения</field>
+				<title xsi:type="xs:string">Строка соединения</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТекстSDBL</dataPath>
+				<field>ТекстSDBL</field>
+				<title xsi:type="xs:string">Текст SDBL</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТекстSDBLМета</dataPath>
+				<field>ТекстSDBLМета</field>
+				<title xsi:type="xs:string">Текст SDBL мета</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТекстБезПараметровSDBL</dataPath>
+				<field>ТекстБезПараметровSDBL</field>
+				<title xsi:type="xs:string">Текст без параметров SDBL</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТекстБезПараметровSDBLМета</dataPath>
+				<field>ТекстБезПараметровSDBLМета</field>
+				<title xsi:type="xs:string">Текст без параметров SDBLМета</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТекстЖурнала</dataPath>
+				<field>ТекстЖурнала</field>
+				<title xsi:type="xs:string">Текст журнала</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТекстСУБД</dataPath>
+				<field>ТекстСУБД</field>
+				<title xsi:type="xs:string">Текст СУБД</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТекстСУБДМета</dataPath>
+				<field>ТекстСУБДМета</field>
+				<title xsi:type="xs:string">Текст СУБД мета</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяВысота</parameter>
+						<value xsi:type="xs:decimal">50</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипИсключения</dataPath>
+				<field>ТипИсключения</field>
+				<title xsi:type="xs:string">Тип исключения</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипПроцессаОС</dataPath>
+				<field>ТипПроцессаОС</field>
+				<title xsi:type="xs:string">Тип процесса ОС</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Транзакция</dataPath>
+				<field>Транзакция</field>
+				<title xsi:type="xs:string">Транзакция</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФайлСУБД</dataPath>
+				<field>ФайлСУБД</field>
+				<title xsi:type="xs:string">Файл СУБД</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>100</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЧислоИзменныхСтрок</dataPath>
+				<field>ЧислоИзменныхСтрок</field>
+				<title xsi:type="xs:string">Число изменных строк</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЧислоСтрок</dataPath>
+				<field>ЧислоСтрок</field>
+				<title xsi:type="xs:string">Число строк</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<objectName>Основной</objectName>
+		</dataSet>
+		<calculatedField>
+			<dataPath>Количество</dataPath>
+			<expression>1</expression>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Количество</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+				<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<Digits>0</Digits>
+					<FractionDigits>0</FractionDigits>
+					<AllowedSign>Any</AllowedSign>
+				</NumberQualifiers>
+			</valueType>
+		</calculatedField>
+		<calculatedField>
+			<dataPath>СредняяДлительность</dataPath>
+			<expression>0</expression>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Сред. длительность, мс</d4p1:content>
+				</d4p1:item>
+			</title>
+			<appearance>
+				<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+					<parameter>Формат</parameter>
+					<value xsi:type="xs:string">ЧДЦ=0</value>
+				</item>
+			</appearance>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+				<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<Digits>0</Digits>
+					<FractionDigits>0</FractionDigits>
+					<AllowedSign>Any</AllowedSign>
+				</NumberQualifiers>
+			</valueType>
+		</calculatedField>
+		<calculatedField>
+			<dataPath>МаксимальнаяДлительность</dataPath>
+			<expression>0</expression>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Макс. длительность, мс</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+				<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<Digits>0</Digits>
+					<FractionDigits>0</FractionDigits>
+					<AllowedSign>Any</AllowedSign>
+				</NumberQualifiers>
+			</valueType>
+		</calculatedField>
+		<calculatedField>
+			<dataPath>МинимальнаяДлительность</dataPath>
+			<expression>0</expression>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Мин. длительность, мс</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+				<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<Digits>0</Digits>
+					<FractionDigits>0</FractionDigits>
+					<AllowedSign>Any</AllowedSign>
+				</NumberQualifiers>
+			</valueType>
+		</calculatedField>
+		<calculatedField>
+			<dataPath>Частота</dataPath>
+			<expression>0</expression>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Частота</d4p1:content>
+				</d4p1:item>
+			</title>
+			<appearance>
+				<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+					<parameter>Формат</parameter>
+					<value xsi:type="xs:string">ЧЦ=7; ЧДЦ=3</value>
+				</item>
+			</appearance>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+				<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<Digits>0</Digits>
+					<FractionDigits>0</FractionDigits>
+					<AllowedSign>Any</AllowedSign>
+				</NumberQualifiers>
+			</valueType>
+		</calculatedField>
+		<calculatedField>
+			<dataPath>Интервал</dataPath>
+			<expression>0</expression>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Интервал, c</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+				<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<Digits>0</Digits>
+					<FractionDigits>0</FractionDigits>
+					<AllowedSign>Any</AllowedSign>
+				</NumberQualifiers>
+			</valueType>
+		</calculatedField>
+		<calculatedField>
+			<dataPath>НачалоИнтервала</dataPath>
+			<expression>""</expression>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Начало интервала</d4p1:content>
+				</d4p1:item>
+			</title>
+			<appearance>
+				<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+					<parameter>Формат</parameter>
+					<value xsi:type="xs:string">ДФ='HH:mm:ss dd.MM.yy '</value>
+				</item>
+			</appearance>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+		</calculatedField>
+		<calculatedField>
+			<dataPath>КонецИнтервала</dataPath>
+			<expression>""</expression>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Конец интервала</d4p1:content>
+				</d4p1:item>
+			</title>
+			<appearance>
+				<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+					<parameter>Формат</parameter>
+					<value xsi:type="xs:string">ДФ='HH:mm:ss dd.MM.yy '</value>
+				</item>
+			</appearance>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+		</calculatedField>
+		<calculatedField>
+			<dataPath>ПримерОписания</dataPath>
+			<expression>Описание</expression>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Пример описания</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+				<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<Length>999</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+			</valueType>
+		</calculatedField>
+		<totalField>
+			<dataPath>Интервал</dataPath>
+			<expression>РАЗНОСТЬДАТ(Минимум(Дата), Максимум(Дата), "СЕКУНДА")</expression>
+		</totalField>
+		<totalField>
+			<dataPath>Количество</dataPath>
+			<expression>Сумма(Количество)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>КонецИнтервала</dataPath>
+			<expression>Максимум(Дата)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>МаксимальнаяДлительность</dataPath>
+			<expression>Максимум(Длительность)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>МинимальнаяДлительность</dataPath>
+			<expression>Минимум(Длительность)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>СредняяДлительность</dataPath>
+			<expression>Сумма(Длительность)/Сумма(1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>Частота</dataPath>
+			<expression>Сумма(1) / РАЗНОСТЬДАТ(Минимум(Дата), Максимум(Дата), "СЕКУНДА")</expression>
+		</totalField>
+		<totalField>
+			<dataPath>НачалоИнтервала</dataPath>
+			<expression>Минимум(Дата)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>Длительность</dataPath>
+			<expression>Сумма(Длительность)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>ПримерОписания</dataPath>
+			<expression>Максимум(ПримерОписания)</expression>
+		</totalField>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="xs:string">Основной</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Длительность</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Интервал</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Количество</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КонецИнтервала</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>МаксимальнаяДлительность</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>МинимальнаяДлительность</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>НачалоИнтервала</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СредняяДлительность</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Частота</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Длительность.ПроцентОбщий</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Количество.ПроцентВГруппе</field>
+		</item>
+	</selection>
+	<item xsi:type="StructureItemGroup">
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>

@@ -1,0 +1,9 @@
+﻿135a00c5-be3e-4417-bc60-2d9d1043dc18-->und\135a00c5-be3e-4417-bc60-2d9d1043dc18
+135a00c5-be3e-4417-bc60-2d9d1043dc18.0-->Form\ФормаМакет
+150f97b1-e60f-4614-87eb-22b5aff2724a-->und\150f97b1-e60f-4614-87eb-22b5aff2724a
+5db35684-eada-4213-8902-2e3e9e34e6f1.0\info-->und\5db35684-eada-4213-8902-2e3e9e34e6f1.0\info
+5db35684-eada-4213-8902-2e3e9e34e6f1.0\text-->ObjectModule.bsl
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

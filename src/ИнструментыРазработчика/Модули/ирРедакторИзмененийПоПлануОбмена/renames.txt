@@ -1,0 +1,15 @@
+﻿1bac55c7-9622-483b-a3c1-a1980198a443-->und\1bac55c7-9622-483b-a3c1-a1980198a443
+1bac55c7-9622-483b-a3c1-a1980198a443.0-->Form\ИзменениеНомеровСообщений
+1d955663-44e3-4871-b800-f963983ae735-->und\1d955663-44e3-4871-b800-f963983ae735
+1d955663-44e3-4871-b800-f963983ae735.0-->Form\ФормаВыбораОбновленияРегистрации
+25d57e14-f4ad-43ba-8d1d-65fd70396e37.0\info-->und\25d57e14-f4ad-43ba-8d1d-65fd70396e37.0\info
+25d57e14-f4ad-43ba-8d1d-65fd70396e37.0\text-->ObjectModule.bsl
+940c827b-3d9b-460c-9b2b-2722f60bd632-->und\940c827b-3d9b-460c-9b2b-2722f60bd632
+940c827b-3d9b-460c-9b2b-2722f60bd632.0-->Form\Форма
+ca603d99-1872-41cc-9f4d-a4095768d4ad-->und\ca603d99-1872-41cc-9f4d-a4095768d4ad
+copyinfo-->und\copyinfo
+efcaa9e1-fee1-4a02-a7db-0b162849f9c8-->und\efcaa9e1-fee1-4a02-a7db-0b162849f9c8
+efcaa9e1-fee1-4a02-a7db-0b162849f9c8.0-->Form\ФормаВыбораОбъектовДляРегистрации
+root-->und\root
+version-->und\version
+versions-->und\versions
